@@ -101,7 +101,7 @@ const Navbar = () => {
             to="home"
             smooth={true}
             duration={500}
-            className="flex"
+            className="flex hover:scale-110 duration-500 text-[black]"
           >
             <FaHome
               className=" mr-1 bg-[#E5E8E8] p-[4px] rounded-lg 	"
@@ -117,7 +117,7 @@ const Navbar = () => {
             to="about"
             smooth={true}
             duration={500}
-            className="flex"
+            className="flex hover:scale-110 duration-500 text-[#9d34da]"
           >
             <TbArrowRoundaboutRight
               className=" mr-1 bg-[#f0e1f9]  p-[4px] rounded-lg text-[#9d34da]"
@@ -133,7 +133,7 @@ const Navbar = () => {
             to="skills"
             smooth={true}
             duration={500}
-            className="flex"
+            className="flex hover:scale-110 duration-500 text-[#ea4e43]"
           >
             <IoCodeSlash
               className=" mr-1 bg-[#fce9e8]  p-[4px] rounded-lg text-[#ea4e43]"
@@ -149,7 +149,7 @@ const Navbar = () => {
             to="work"
             smooth={true}
             duration={500}
-            className="flex"
+            className="flex hover:scale-110 duration-500 text-[#0a85d1]"
           >
             <TbTargetArrow
               className=" mr-1 bg-[#e2ecf3]  p-[4px] rounded-lg text-[#0a85d1]"
@@ -166,7 +166,7 @@ const Navbar = () => {
             to="contact"
             smooth={true}
             duration={500}
-            className="flex"
+            className="flex hover:scale-110 duration-500 text-[#fb3]"
           >
             <MdOutlineSms
               className=" mr-1 bg-[#fff6d6]  p-[4px] rounded-lg text-[#fb3]"
