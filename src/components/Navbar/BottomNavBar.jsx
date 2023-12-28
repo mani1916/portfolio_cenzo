@@ -15,7 +15,7 @@ export default function BottomNavBar() {
   return (
     <div className="sm:hidden sticky bottom-0">
       <BottomNavigation
-        sx={{ width: 480 }}
+        sx={{ width: 360 }}
         value={value}
         onChange={handleChange}
       >
